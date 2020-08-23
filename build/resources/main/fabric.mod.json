@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "devin",
+  "version": "1.0.0",
+
+  "name": "Devin Fabric Learning",
+  "description": "This is a mod developed by Devin while he is learning how to make mods",
+  "authors": [
+    "HiItsDevin_"
+  ],
+  "contact": {
+    "homepage": "https://hiitsdevin.dev/",
+    "sources": "https://git.hiitsdevin.dev/devinfabriclearning"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.hiitsdevin.git.devinfabriclearning.Devin"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
